@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30726C17-A628-4A1F-98C7-A1141D8894E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Game_Picture.My.MyApplication</StartupObject>
+    <RootNamespace>Game_Picture</RootNamespace>
+    <AssemblyName>Game Picture</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Game Picture.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Game Picture.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.Designer.vb">
+      <DependentUpon>about.vb</DependentUpon>
+    </Compile>
+    <Compile Include="about.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="awal.Designer.vb">
+      <DependentUpon>awal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="awal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help.Designer.vb">
+      <DependentUpon>help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="helptebak.Designer.vb">
+      <DependentUpon>helptebak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="helptebak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Match.Designer.vb">
+      <DependentUpon>Match.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Match.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tebak.Designer.vb">
+      <DependentUpon>Tebak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tebak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pilih.Designer.vb">
+      <DependentUpon>Pilih.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pilih.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="scorring.Designer.vb">
+      <DependentUpon>scorring.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scorring.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="awal.resx">
+      <DependentUpon>awal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help.resx">
+      <DependentUpon>help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="helptebak.resx">
+      <DependentUpon>helptebak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Match.resx">
+      <DependentUpon>Match.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tebak.resx">
+      <DependentUpon>Tebak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pilih.resx">
+      <DependentUpon>Pilih.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gandrung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jaipong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasambahan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pendet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piring.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topeng.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sajojo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serimpi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tor2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selampir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selampir2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pendet2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\merak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\merak2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legong2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
